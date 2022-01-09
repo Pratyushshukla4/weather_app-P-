@@ -64,28 +64,28 @@ function intercity()
              document.getElementById('humidity3').innerText = ( text.main.humidity);
              if(text.weather[0].description == "mist")
              {
-                img1.src = "/project_8_wheather_app/mist.jfif"
+                img1.src = "mist.jfif"
              }
              else if(text.weather[0].description == "haze")
              {
-                img1.src = "/project_8_wheather_app/haze.jfif"
+                img1.src = "haze.jfif"
              }
              else if(text.weather[0].description == "broken clouds" ||text.weather[0].description == "overcast clouds" )
              {
-                img1.src = "/project_8_wheather_app/clouds.jfif"
+                img1.src = "clouds.jfif"
              }
              else if(text.weather[0].description == "rain")
              {
-                img1.src = "/project_8_wheather_app/rain.jfif"
+                img1.src = "rain.jfif"
              }
              else if(text.weather[0].description == "clear sky")
              {
-                img1.src = "/project_8_wheather_app/clear_sky.jfif"
+                img1.src = "clear_sky.jfif"
              }
              else 
              {
               {
-                img1.src = "/project_8_wheather_app/clouds.jfif"
+                img1.src = "clouds.jfif"
              }
              }
            }              // humidity
